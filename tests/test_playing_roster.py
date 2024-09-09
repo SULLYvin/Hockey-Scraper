@@ -89,3 +89,4 @@ def test_scrape_roster(scraped_roster):
     """ Test scraping all the roster info """
     assert 'players' in scraped_roster
     assert 'head_coaches' in scraped_roster
+
